@@ -47,12 +47,13 @@ const Hero = () => {
     .to('.left-leaf',{ y: -200}, 0)
 
     const startValue = isMobile ? 'top 40%' : 'center 60%';
-    const endValue = isMobile ? '+=1500' : '+=3000';
+    const endValue = 'bottom bottom';
 
     // Video animation timeline
     const tl = gsap.timeline({
       scrollTrigger: {
         trigger: 'video',
+        endTrigger: '#cocktails',
         start: startValue,
         end: endValue,
         scrub: true,
@@ -110,11 +111,6 @@ const Hero = () => {
           </div>
         </div>
       </section>
-
-      {/* Page 2 — Noisy background */}
-      <section className='hero-page-2 noisy'>
-      </section>
-      
     </div>
   )
 }
