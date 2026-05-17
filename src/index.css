@@ -132,8 +132,22 @@ body {
         }
     }
 
-    video {
-        @apply w-full md:h-[80%] h-1/2 absolute bottom-0 left-0 md:object-contain object-bottom object-cover;
+    .hero-container {
+        @apply relative w-full;
+    }
+
+    .vidio-wrapper {
+        @apply absolute top-0 left-0 w-full h-dvh flex flex-col justify-end items-center pb-6 md:pb-12 z-0 pointer-events-none overflow-visible;
+
+        video {
+            @apply md:w-[75%] w-[92%] rounded-2xl object-cover;
+            aspect-ratio: 16 / 9;
+            
+        }
+    }
+
+    .hero-page-2 {
+        @apply relative z-10 min-h-dvh w-full;
     }
 
     #cocktails {
