@@ -85,7 +85,7 @@ const Hero = () => {
       </div>
 
       {/* Page 1 — Hero content */}
-      <section id="hero" className='noisy'>
+      <section id="hero">
           <h1 className='title'>MONALISA</h1>
 
         <img src="/images/hero-left-leaf.png"
@@ -100,7 +100,7 @@ const Hero = () => {
         <div className="body">
           <div className="content">
             <div className="space-y-5 hidden md:block">
-              <p>Cool. Crisp. Clasic.</p>
+              <p>Cool. Crisp. Classic.</p>
               <p className='subtitle'>Sip the spirit <br />of summer</p>
             </div>
 

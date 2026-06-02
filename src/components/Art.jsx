@@ -30,7 +30,7 @@ const Art = () => {
       <div className="container mx-auto h-full pt-20">
         <h2 className='will-fade'>The Art</h2>
         <div className='content'>
-            <ul className="space-y-4 will-fade">
+            <ul className="space-y-4 will-fade text-white">
               {goodLists.map((feature, index) => (
                 <li key={index} className="flex items-center gap-2">
                 

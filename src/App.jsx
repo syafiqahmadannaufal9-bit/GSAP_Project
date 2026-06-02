@@ -5,6 +5,7 @@ import Hero from "./components/Hero.jsx";
 import Cocktails from "./components/cocktails.jsx";
 import About from "./components/about.jsx";
 import Art from "./components/Art.jsx";
+import Contact from "./components/Contact.jsx";
 gsap.registerPlugin(ScrollTrigger);
 
 
@@ -16,6 +17,7 @@ const App = () => {
       <Cocktails />
       <About />
       <Art />
+      <Contact />
     </main>
     
   )
